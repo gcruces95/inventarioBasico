@@ -1,0 +1,119 @@
+body {
+    background-color: #00739c;
+}
+
+.content{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: transparent;
+    font-family: "Mitr", sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 1px 3px #3db2a0;
+}
+.content h1{
+    display: block;
+    color: #00132F;
+    font-size: 1.8em;
+    margin: 10px auto;
+    font-weight: bold;
+}
+.content label{
+    text-align: center;
+}
+
+.content img{
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    font-family: "Mitr", sans-serif;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 10px;
+    margin: 10 auto;
+    padding: 3px 150px 6px 5px;
+	border-left: 10px solid #3db2a0;
+}
+input[type="text"]:hover{
+	border-color: #00BCD4;
+}
+input[type="text"]:focus{
+	border-color: #00739c;
+	box-shadow: 0 0 1px 3px #3b99fcb3;
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222; 
+	outline: none;
+}
+input[type="password"] {
+    font-family: "Mitr", sans-serif;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 10px;
+    margin: 10 auto;
+    padding: 3px 150px 6px 5px;
+    border-left: 10px solid #3db2a0;
+}
+input[type="password"]:hover{
+	border-color: #00BCD4;
+}
+input[type="password"]:focus{
+	border-color: #00739c;
+	box-shadow: 0 0 1px 3px #3b99fcb3;
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222; 
+	outline: none;
+}
+input[type="submit"] {
+    border-collapse: collapse;
+    border: transparent;
+    border-radius: 15px;
+    font-family: "Mitr", sans-serif;
+    color: white;
+    margin: 15px auto;
+    padding: 5px 50px 5px 50px;
+    background-color: #298dba;
+    transition: 0.5s;
+}
+input[type="submit"]:hover {
+    color: rgb(255, 255, 255);
+    background-color: #00BCD4;
+}
+.regis{
+    text-decoration: none;
+    font-size: 13px;
+    border-collapse: collapse;
+    border: transparent;
+    border-radius: 15px;
+    font-family: "Mitr", sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 5px 50px 5px 50px;
+    background-color: #3db2a0;
+    transition: 0.5s;
+}
+.regis:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #00BCD4;
+}
+.footer{
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: "Mitr", sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #3db2a0;
+}
+.footer p{
+    text-align: right;
+    margin-right: 50px;
+    position:relative;
+}
